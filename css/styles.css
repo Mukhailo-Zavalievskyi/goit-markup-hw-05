@@ -505,6 +505,71 @@ button {
     fill: #f4f4fd;
 }
 
+
+.footer-subscribe-field {
+    width: 264px;
+    box-sizing: border-box;
+    margin-left: 80px;
+}
+
+.footer-subscribe-title {
+    margin-bottom: 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-subscribe-input {
+    padding: 8px 16px;
+    background-color: #2e2f42;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+
+.footer-subscribe-input::placeholder {
+    color: #FFF;
+}
+
+.footer-subscribe-button-conteiner {
+    margin-left: 24px;
+}
+
+.footer-subscribe-button {
+    width: 164px;
+    height: 40px;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+.footer-subscribe-button-icon {
+    fill: #fff;
+}
+
+
+
+
+
 /*MODAL WINDOW*/
 .backdrop {
     position: fixed;
@@ -652,7 +717,7 @@ button {
 }
 
 .reviev-form-checkbox-label {
-    color: #8E8F9;
+    color: #8E8F99;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.16;
@@ -661,4 +726,26 @@ button {
 
 .reviev-form-privacy-link {
     color: #4D5AE5;
+}
+
+.reviev-form-submit {
+    display: block;
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
