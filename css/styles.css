@@ -696,6 +696,10 @@ button {
     position: relative;
 }
 
+.reviev-form-field-wrapper-comment {
+    margin-bottom: 16px
+}
+
 .reviev-form-comment {
     color: rgba(46, 47, 66, 0.40);
     font-size: 12px;
